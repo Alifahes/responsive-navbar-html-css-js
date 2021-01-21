@@ -1,0 +1,188 @@
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Yusei Magic', sans-serif;
+}
+
+.con{
+        width: 100%;
+        height: 50px;
+        font-family: 'Yusei Magic', sans-serif;
+        background-color: rgba(65, 105, 225, 0.94);
+}
+.co{
+        
+        width: 81%;
+        padding-top: 12px;
+        padding-left: 123px;
+}
+
+
+.lo{
+        width: 100px;
+        color: white;
+}
+
+ul{
+        
+}
+li{
+        list-style: none;
+        display: inline-block;
+        padding: 10px;
+
+}
+
+a {
+        font-weight: 700;
+        color: white;
+        /* text-align: center; */
+        position: relative;
+        text-decoration: none;
+        top: -3px;
+    }
+.spa{
+        width: 748px;
+}
+
+li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px;
+        
+        /* border-radius: 8px; */
+        height: 9px;
+        /* width: 56px; */
+        transition:all 3s;
+    }
+
+.k{
+        background: cornflowerblue;
+}
+
+li:hover{
+        background: cornflowerblue;
+}
+
+.ll{
+        width: 15px;
+    float: right;
+}
+
+.ll{
+        display: none;
+}
+
+.nn{
+        background-color: rgba(65, 105, 225, 0.94);
+        width: 100%;
+        display: none;
+        height: 100%;
+        
+}
+
+@media (max-width:652px){
+
+        .nn{
+                display: none;
+                transition: all 2s;
+        }
+ 
+
+        li {
+                list-style: none;
+                display: block;
+                padding: 44px;
+                /* border-radius: 8px; */
+                height: 9px;
+                /* width: 56px; */
+                transition: all 3s;
+            }
+
+        a{
+                color: white;
+        }
+        .n{
+               display: none;
+                
+        }
+        .co {
+                width: 79%;
+                padding-top: 12px;
+                padding-left: 100px;
+            }
+        .ll{
+                display: block;
+        }
+        .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+                content: "\f0c9";
+                position: relative;
+                top: -25px;
+                right: 10px;
+                font-size: 23px;
+                color: white;
+        }
+        ul {
+                text-align: center;
+                padding-top: 58px;
+                font-size: -9px;
+                font-size: 40px;
+            }
+}
+
+@media (max-width:500px){
+
+        .nn{
+                display: none;
+        }
+
+        li {
+                list-style: none;
+                display:block;
+                padding: 44px;
+                /* border-radius: 8px; */
+                height: 9px;
+                /* width: 56px; */
+                transition: all 3s;
+            }
+
+        ul {
+                text-align: center;
+                padding-top: 58px;
+                font-size: -9px;
+                font-size: 40px;
+            }
+
+        .n{
+                display: none;
+                
+        }
+
+        a{
+                color: white;
+        }
+        .con {
+                width: 100%;
+                height: 50px;
+                font-family: 'Yusei Magic', sans-serif;
+                background-color: rgba(65, 105, 225, 0.94);
+            }
+        .co {
+                width: 60%;
+                padding-top: 12px;
+                padding-left: 100px;
+            }
+        .ll{
+                display: block;
+        }
+        .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+                content: "\f0c9";
+                position: relative;
+                top: -25px;
+                right: 10px;
+                font-size: 23px;
+                color: white;
+        }
+}
+
+
